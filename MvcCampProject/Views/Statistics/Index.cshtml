@@ -1,0 +1,66 @@
+﻿@using EntityLayer.Concrete
+@model List<Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>İstatistikler Tablosu</h2>
+<br />
+
+<div class="col-md-6">
+    <div class="info-box card bg-red">
+        <div class="info-box-content">
+            <span class="info-box-text">1) Toplam Kategori Sayısı</span>
+            <span class="info-box-number">@ViewBag.CategoryCount</span>
+        </div>
+
+    </div>
+
+</div>
+<div class="col-md-6">
+    <div class="info-box card bg-cyan">
+        <div class="info-box-content">
+            <span class="info-box-text">2) "Yazılım" Kategorisine Ait Başlık Sayısı</span>
+            <span class="info-box-number">@ViewBag.CategoryHeader</span>
+        </div>
+
+    </div>
+
+</div>
+<div class="col-md-6">
+    <div class="info-box card bg-blue">
+        <div class="info-box-content">
+            <span class="info-box-text">3) Yazar Adında 'a' Harfi Geçen Yazar Sayısı</span>
+            <span class="info-box-number">@ViewBag.Writer</span>
+        </div>
+
+    </div>
+
+</div>
+<div class="col-md-6">
+    <div class="info-box card bg-fuchsia">
+        <div class="info-box-content">
+            <span class="info-box-text">4) En Fazla Başlığa Sahip Kategori Adı</span>
+            <span class="info-box-number">@ViewBag.MaxHeading</span>
+        </div>
+
+    </div>
+
+</div>
+<div class="col-md-6">
+    <div class="info-box card bg-yellow">
+        <div class="info-box-content">
+            <span class="info-box-text">
+                5)True Olan Kategoriler ile False Olan Kategoriler Arasındaki Sayısal Fark
+            </span>
+            <span class="info-box-number">@ViewBag.Status</span>
+        </div>
+
+    </div>
+
+</div>
+
+
+
