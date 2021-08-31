@@ -1,20 +1,20 @@
 ### MURAT YÜCEDAĞ ile MVC PROJE KAMPI
 
-##Kullanılan Araçlar ve Teknolojiler:
+## Kullanılan Araçlar ve Teknolojiler:
 -Migration
 -Katmanlı Mimari
 -Entity Framework
 -Mvc Pattern
 
-#Proje Mvc5 ile Solid Prensiplerine uygun şekilde N-tier architecture yapısını ezmeden kodlanmıştır.
+# Proje Mvc5 ile Solid Prensiplerine uygun şekilde N-tier architecture yapısını ezmeden kodlanmıştır.
 
-#Business, Entity, DataAccess ve Presentation olmak üzere 4 temel katmandan oluşmaktadır.
+# Business, Entity, DataAccess ve Presentation olmak üzere 4 temel katmandan oluşmaktadır.
 
-#Projenin frontend tarafında Html5, Css, Bootstrap, Javascript, Jquery bileşenlerine yer verilmiştir.
+# Projenin frontend tarafında Html5, Css, Bootstrap, Javascript, Jquery bileşenlerine yer verilmiştir.
 
-#Veritabanı olarak MSSQL kullanılmıştır.
+# Veritabanı olarak MSSQL kullanılmıştır.
 
-##Proje Görselleri:
+## Proje Görselleri:
 
 ![görsel 10](https://user-images.githubusercontent.com/70768778/131550966-62360866-5f5f-4546-b3fc-8359c63c7932.png)
 ![görsel 11](https://user-images.githubusercontent.com/70768778/131551055-568ffa26-5949-4045-8670-759f7c3a43f4.png)
